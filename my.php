@@ -27,316 +27,313 @@ define("HEADER_MESSAGES_NEW","Mesej Baru");
 
 
 //LOGIN.php
-define("LOGIN_WELCOME","به سرور ".SERVER_NAME." خوش آمدید!");
-define("LOGIN_NO_JAVASCRIPT","در مرورگر شما JavaScript غیرفعال می‌باشد. برای اینکه قادر به بازی باشید باید از تنظیمات مرورگر خود JavaScript را فعال کنید.");
-define("LOGIN_USERNAME","نام اکانت");
-define("LOGIN_PASSWORD","رمز عبور");
-define("LOGIN_LOWRES_OPTION","ویرایش برای بازیکن");
-define("LOGIN_LOWRES_DESC","با پهنای باند کمتر (سرعت اینترنت کمتر)");
-define("LOGIN_LOWRES_NOTICE","(توجه: این ویرایش نقشه تمامی امکان‌های ممکن را ندارد)");
-define("LOGIN_PW_FORGOTTEN","رمز عبور را فراموش کردید؟");
-define("LOGIN_PW_EMAIL","ایمیل:");
-define("LOGIN_PW_BTN","درخواست رمز عبور");
-define("LOGIN_PW_REQUEST","ما برای شما رمز جدیدی ارسال خواهیم کرد. به محض اینکه دریافت نامه را تایید کنید رمز فعال خواهد شد.");
-define("LOGIN_PW_SENT","یک ایمیل حاوی رمز عبور جدید به ایمیل شما فرستاده شد");
-define("LOGIN_SERVER_START","بازی هنوز شروع نشده است. شما قادر به بازی کردن در");
+define("LOGIN_WELCOME","Server ". SERVER_NAME." Hi there!");
+define("LOGIN_NO_JAVASCRIPT","JavaScript is disabled in your browser. To be able to play, you must enable JavaScript in your browser.");
+define("LOGIN_USERNAME","Account Name");
+define("LOGIN_PASSWORD","Password");
+define("LOGIN_LOWRES_OPTION","Editing for players");
+define("LOGIN_LOWRES_DESC","With less bandwidth (speed less)");
+define("LOGIN_LOWRES_NOTICE","(Note: All options may not edit map)");
+define("LOGIN_PW_FORGOTTEN","Password Forgot?");
+define("LOGIN_PW_EMAIL","Email:");
+define("LOGIN_PW_BTN","Password");
+define("LOGIN_PW_REQUEST","We will send you a new password. Once you receive a confirmation code will be active.");
+define("LOGIN_PW_SENT","An email containing a new password sent to your email");
+define("LOGIN_SERVER_START","The game has not started yet. You are able to play in");
 define("LOGIN_SERVER_START2","می باشید.");
-define("PW_GENERATE","همه قسمت ها الزامی است");
-define("EMAIL_NOT_VERIFIED","ایمیل تایید نشده");
-define("EMAIL_FOLLOW","برای فعالسازی اکانت خود روی این لینک کلیک کنید");
-define("VERIFY_EMAIL","ایمیل تایید شد");
-define("COOKIES","برای ورود، باید کوکی را فعال کنید. در صورتی که شما کامپیوتر را مشتركاً با اشخاص دیگری استفاده می کنید، باید به هنگام خروج، لاگ اوت (خروج) را بزنید.");
+define("PW_GENERATE","All fields are mandatory");
+define("EMAIL_NOT_VERIFIED","Email unconfirmed");
+define("EMAIL_FOLLOW","Click on this link to activate your account");
+define("VERIFY_EMAIL","Confirmed email");
+define("COOKIES","To enter, you must enable cookies. If your computer is shared with other people, you should exit the log August (departure) hitد.");
 
 
-//LOGOUT.php
-define("LOGOUT_TITLE","خروج موفقیت آمیز");
-define("LOGOUT_H4","با تشکر از بازديد شما.");
-define("LOGOUT_DESC","اگر افراد دیگری نیز از این کامپیوتر استفاده می کنند، شما باید کوکی ها را برای امنیت بیشتر خود پاک کنید:");
-define("LOGOUT_LINK","پاک کردن کوکی ها");
+/ / LOGOUT.php
+define ("LOGOUT_TITLE", " successful exit " ) ;
+define ("LOGOUT_H4", " thank you for visiting. ' ) ;
+define ("LOGOUT_DESC", " If other people are using the computer , you will need to delete your cookies for security " ) ;
+define ("LOGOUT_LINK", " Delete Cookies " ) ;
 
 
-//REGISTER
-define("REGISTER_USERINFO","اطلاعات کاربر");
-define("REGISTER_USERNAME","نام:");
-define("REGISTER_EMAIL","ایمیل:");
-define("REGISTER_LOCATION","محل شروع");
-define("REGISTER_RANDOM","انتخاب تصادفی");
-define("REGISTER_NW","شمال غربی");
-define("REGISTER_NE","شمال شرقی");
-define("REGISTER_SW","جنوب غربی");
-define("REGISTER_SE","جنوب شرقی");
-define("ACCEPT_RULES"," من قوانین را خوانده و قبول دارم.");
-define("REGISTER_MOREINFO","اطلاعات بیشتر");
-define("REGISTER_PASSWORD","رمز عبور:");
-define("REGISTER_SELECT_TRIBE","یک نژاد انتخاب کنید");
-define("BEFORE_REGISTER","قبل از اینکه ثبت نام کنید، بهتر است بخش <a href='../anleitung.php' target='_blank'>راهنمایی</a> تراوین را مطالعه کنید تا از برتری و ضعف هر یک از سه نژاد مطلع شوید.");
-define("REGISTER_STARTER","اگر به تازگی با TRAFIAN آشنا شده اید، توصیه می شود که نژاد گول را انتخاب کنید.");
+/ / REGISTER
+define ("REGISTER_USERINFO", " user " ) ;
+define ("REGISTER_USERNAME", " name " ) ;
+define ("REGISTER_EMAIL", " email " ) ;
+define ("REGISTER_LOCATION", " zero " ) ;
+define ("REGISTER_RANDOM", " random " ) ;
+define ("REGISTER_NW", " North West " ) ;
+define ("REGISTER_NE", " North East " ) ;
+define ("REGISTER_SW", " Southwest " ) ;
+define ("REGISTER_SE", " Southeast " ) ;
+define ("ACCEPT_RULES", " I have read and agree to the rules . " ) ;
+define ("REGISTER_MOREINFO", " Details " ) ;
+define ("REGISTER_PASSWORD", " password " ) ;
+define ("REGISTER_SELECT_TRIBE", " pick a race " ) ;
+define ("BEFORE_REGISTER", " Before you sign up the better part <a href='../anleitung.php' target='_blank'> tips </ a> to read through the advantages and disadvantages of each if one of the three tribes . " ) ;
+define ("REGISTER_STARTER", " If you've met recently TRAFIAN is recommended to select the breed fool . " ) ;
 
 
-//CONTACT.PHP
-define("CONTACT_DESC","شما می توانید از فرم زیر درخواست خود را به پشتیبانی ارسال کنید. لطفاً با دقت پاسخ سوالات فرم را با جزیئات وارد کنید تا در اسرع وقت قادر به راهنمایی شما باشیم.");
-define("CONTACT_CATEGORY","دسته");
-define("CONTACT_SELECT_SUBJECT","لطفاً انتخاب کنید");
-define("CONTACT_SUBJECT1","سوال عمومی");
-define("CONTACT_SUBJECT2","نمی توانم وارد اکانت شوم");
-define("CONTACT_SUBJECT3","نمی توانم ثبت نام کنم");
-define("CONTACT_SUPPORT","پشتیبانی سرور");
-define("CONTACT_USERNAME","نام کاربری");
-define("CONTACT_USER_NOT_EXIST","این نام کاربری ثبت نشده.");
-define("CONTACT_EMAIL","ایمیل");
-define("CONTACT_MESSAGE","پیام");
-define("CONTACT_SEND","ارسال");
-define("CONTACT_SENT","با موفقیت ارسال شد.");
+/ / CONTACT.PHP
+define ("CONTACT_DESC", " You can use the form below to send your request to support . , please answer the questions on the form and enter the details as soon as you are able to help . " ) ;
+define ("CONTACT_CATEGORY", " handle" ) ;
+define ("CONTACT_SELECT_SUBJECT", " Please Select " ) ;
+define ("CONTACT_SUBJECT1", " General Question " ) ;
+define ("CONTACT_SUBJECT2", " I can not enter my account " ) ;
+define ("CONTACT_SUBJECT3", " can not I register " ) ;
+define ("CONTACT_SUPPORT", " Server Support " ) ;
+define ("CONTACT_USERNAME", " username" ) ;
+define ("CONTACT_USER_NOT_EXIST", " User name not registered . " ) ;
+define ("CONTACT_EMAIL", " email" ) ;
+define ("CONTACT_MESSAGE", " Message " ) ;
+define ("CONTACT_SEND", " post " ) ;
+define ("CONTACT_SENT", " was sent successfully . " ) ;
 
 
-//ERRORS
-define("USRNM_EMPTY","(خالی است)");
-define("USRNM_TAKEN","(قبلا استفاده شده)");
-define("USRNM_SHORT","(حداقل ".USRNM_MIN_LENGTH." حرف)");
-define("USRNM_CHAR","(کاراکترهای اشتباه)");
-define("PW_EMPTY","(خالی است)");
-define("PW_SHORT","(حداقل ".PW_MIN_LENGTH." حرف)");
-define("PW_INSECURE","(رمز نامعتبر است، یک رمز دیگر انتخاب کنید)");
-define("EMAIL_EMPTY","(خالی است)");
-define("EMAIL_INVALID","(اشتباه است)");
-define("EMAIL_NOTEXIST","این ایمیل وجود ندارد.");
-define("EMAIL_TAKEN","(قبلا استفاده شده)");
-define("TRIBE_EMPTY","<li>لطفا نژاد را انتخاب کنید</li>");
-define("AGREE_ERROR","<li>باید قوانین بازی را خوانده و قبول کنید</li>");
-define("LOGIN_USR_EMPTY","نام را وارد کنید");
-define("LOGIN_PASS_EMPTY","رمز عبور را وارد کنید");
-define("EMAIL_ERROR","ایمیل وارد شده معتبر نیست");
-define("PASS_MISMATCH","رمز عبور هماهنگ نیست");
-define("ALLI_OWNER","لطفا قبل از حذف یک جانشین انتخاب کنید");
-define("SIT_ERROR","این جانشین قبلا انتخاب شده");
-define("USR_NT_FOUND","این نام وجود ندارد");
-define("USR_BAN","اکانت شما بازداشت شده");
-define("LOGIN_PW_ERROR","رمز عبور اشتباه است");
-define("WEL_TOPIC","توضیحات و اطلاعات ");
-define("ATAG_EMPTY","علامت خالی است");
-define("ANAME_EMPTY","نام خالی است");
-define("ATAG_EXIST","قبلا ثبت شده");
-define("ANAME_EXIST","قبلا ثبت شده");
+/ / ERRORS
+define ("USRNM_EMPTY", "( empty ) " ) ;
+define ("USRNM_TAKEN", "( already in use ) " ) ;
+define ("USRNM_SHORT", "( at least ". USRNM_MIN_LENGTH. " characters) " ) ;
+define ("USRNM_CHAR", "( wrong characters ) " ) ;
+define ("PW_EMPTY", "( empty ) " ) ;
+define ("PW_SHORT", "( at least ". PW_MIN_LENGTH. " characters) " ) ;
+define ("PW_INSECURE", "( password is invalid, please choose a different password ) " ) ;
+define ("EMAIL_EMPTY", "( empty ) " ) ;
+define ("EMAIL_INVALID", "( error ) " ) ;
+define ("EMAIL_NOTEXIST", " This e-mail does not exist. " ) ;
+define ("EMAIL_TAKEN", "( already in use ) " ) ;
+define ("TRIBE_EMPTY", "<li> Please select breed </ li>");
+define ("AGREE_ERROR", "<li> have read and accept the game rules </ li>");
+define ("LOGIN_USR_EMPTY", " Enter Name " ) ;
+define ("LOGIN_PASS_EMPTY", " Enter Password " ) ;
+define ("EMAIL_ERROR", " Email entered is not valid " ) ;
+define ("PASS_MISMATCH", " Password does not match " ) ;
+define ("ALLI_OWNER", " Please choose a successor to delete " ) ;
+define ("SIT_ERROR", " the successor to the previously selected " ) ;
+define ("USR_NT_FOUND", " The name does not exist" ) ;
+define ("USR_BAN", " Your account has been arrested " ) ;
+define ("LOGIN_PW_ERROR", " Invalid Password " ) ;
+define ("WEL_TOPIC", " description and information" ) ;
+define ("ATAG_EMPTY", " blank check " ) ;
+define ("ANAME_EMPTY", " Name is empty" ) ;
+define ("ATAG_EXIST", " unavailable " ) ;
+define ("ANAME_EXIST", " unavailable " ) ;
 
 
-//BUILD.TPL
-define("CUR_PROD","تولیدات فعلی");
-define("NEXT_PROD","تولیدات در سطح ");
-define("BUILDING_UPGRADING","ساختمان:");
-define("HOURS","ساعت");
+/ / BUILD.TPL
+define ("CUR_PROD", " current production " ) ;
+define ("NEXT_PROD", " production -level" ) ;
+define ("BUILDING_UPGRADING", " building " ) ;
+define ("HOURS", " time " ) ;
 
 
-//WARSIM.TPL
-define("WARSIM","شبیه ساز جنگی");
-define("WARSIM_ATTACKER","حمله کننده");
-define("WARSIM_DEFENDER","مدافع");
-define("WARSIM_ETC","غیره");
+/ / WARSIM.TPL
+define ("WARSIM", " war simulator " ) ;
+define ("WARSIM_ATTACKER", " attacker " ) ;
+define ("WARSIM_DEFENDER", " defense " ) ;
+define ("WARSIM_ETC", " other " ) ;
 
-define("WARSIM_POP","جمعیت");
-define("WARSIM_KATA","سطح هدف منجنیق");
-define("WARSIM_HEROPOWER","قهرمان (امتیاز حمله)");
-define("WARSIM_STONEMASON","سنگ تراشی");
-define("WARSIM_PALACE","قصر / اقامتگاه");
+define ("WARSIM_POP", " crowd" ) ;
+define ("WARSIM_KATA", " Catapult target " ) ;
+define ("WARSIM_HEROPOWER", " Hero (Score Attack ) " ) ;
+define ("WARSIM_STONEMASON", " masonry " ) ;
+define ("WARSIM_PALACE", " palace / residence " ) ;
 
-//BUILDINGS
-define("B1","هیزم شکن");
-define("B1_DESC","هیزم شکن چوب تولید میکند. هرچقدر که بیشتر ارتقا داده شود چوب بیشتری تولید میکند");
-define("B2","آجر سازی");
-define("B2_DESC","در اینجا آجر خام (خشت) ساخته می شود. هر قدر سطح این ساختمان بالاتر باشد تولید این محصول بیشتر خواهد شد.");
-define("B3","معدن آهن");
-define("B3_DESC","در اینجا معدنچیان، به تولید آهن می پردازند. هر قدر که سطح معدن بالاتر باشد، آهن بیشتری تولید خواهد شد.");
-define("B4","گندمزار");
-define("B4_DESC","غذای مصرفی مردم در اینجا تولید می شود که با وسعت دادنش توليد محصول بیشتر می شود");
+/ / BUILDINGS
+define ("B1", " woodcutter " ) ;
+define ("B1_DESC", " woodcutter 's wood production . much more will be upgraded to produce more wood " ) ;
+define ("B2", " Brick " ) ;
+define ("B2_DESC", " Here's the raw bricks ( clay ) is made . higher the level the building will further production . " ) ;
+define ("B3", " Iron Mine " ) ;
+define ("B3_DESC", " Here miners , the iron production process . higher mining level is , however , more iron will be produced. " ) ;
+define ("B4", " wheat fields " ) ;
+define ("B4_DESC", " foods that people here will produce a higher yield than the Melrose area " ) ;
 
-//DORF1
-define("LUMBER","چوب");
-define("CLAY","خشت");
-define("IRON","آهن");
-define("CROP","گندم");
-define("LEVEL","سطح");
-define("CROP_COM",CROP." مصرفی");
-define("PER_HR","در ساعت");
-define("PROD_HEADER","تولیدات");
-define("MULTI_V_HEADER","دهکده ها");
-define("ANNOUNCEMENT","اعلانات");
-define("GO2MY_VILLAGE","بازگشت به دهکده");
-define("VILLAGE_CENTER","مرکز دهکده");
-define("FINISH_GOLD","آِیا میخواهید کارهای این دهکده را با 2طلا به اتمام برسانید؟");
-define("WAITING_LOOP","(نوبت ساخت)");
-define("HRS","(ساعت)");
-define("DONE_AT","اتمام در");
-define("CANCEL","انصراف");
-define("LOYALTY","وفاداری:"); 
-define("SEVER_TIME","زمان سرور:");
-define("SIDEINFO_CHANGEVIL_BTN","ذخیره"); 
-define("SIDEINFO_CHANGEVIL_LABEL","نام جدید دهکده:"); 
-define("SIDEINFO_CHANGEVIL_TITLE","تغییر نام دهکده"); 
-define("SIDEINFO_CHANGE_TITLE","برای تغییر نام دهکده دوبار کلیک (دوبل کلیک) کنید."); 
-define("SIDEINFO_ADVENTURES","ماجراجویی"); 
-define("SIDEINFO_AUCTIONS","حراجی"); 
-define("SIDEINFO_PROFILE","پروفایل");
-define("SIDEINFO_ALLIANCE","اتحاد");
-define("SIDEINFO_ALLY_FORUM","فروم اتحاد");
-
-
-//======================================================//
-//================ UNITS  ================//
-//======================================================//
-
-//HERO
-define("U0","قهرمان");
-
-//ROMAN UNITS
-define("U1","سرباز لژیون");
-define("U2","محافظ");
-define("U3","شمشیرزن");
-define("U4","خبرچین");
-define("U5","شوالیه");
-define("U6","شوالیه سزار");
-define("U7","دژکوب");
-define("U8","منجنیق آتشین");
-define("U9","سناتور");
-define("U10","مهاجر");
-
-//TEUTON UNITS
-define("U11","گرزدار");
-define("U12","نیزه دار");
-define("U13","تبرزن");
-define("U14","جاسوس");
-define("U15","دلاور");
-define("U16","شوالیه توتن");
-define("U17","دژکوب");
-define("U18","منجنیق");
-define("U19","رئیس");
-define("U20","مهاجر");
-
-//GAUL UNITS
-define("U21","سرباز پیاده");
-define("U22","شمشیرزن");
-define("U23","ردیاب");
-define("U24","رعد");
-define("U25","کاهن سواره");
-define("U26","شوالیه گول");
-define("U27","دژکوب");
-define("U28","منجنیق");
-define("U29","رئیس قبیله");
-define("U30","مهاجر");
-
-//HOKAGE UNITS
-define("U31","Hashirama Senju");
-define("U32","Tobirama Senju");
-define("U33","Hiruzen Sarutobi");
-define("U34","Minato Namikaze");
-define("U35","Tsunade");
-define("U36","Danzō Shimura");
-define("U37","Kizashi Haruno");
-define("U38","Kakashi Hatake");
-define("U39","Naruto Uzumaki");
-define("U40","Jiraiya");
-
-//AKATSUKI UNITS
-define("U41","Pain");
-define("U42","Deidara");
-define("U43","Konan");
-define("U44","Itachi Uchiha");
-define("U45","Zetsu");
-define("U46","Orochimaru");
-define("U47","Kisame Hoshigaki");
-define("U48","Kakuzu");
-define("U49","Sasori");
-define("U50","Uchiha Madara");
-
-//INDEX.php
-define("LOGIN","Masuk");
-define("PLAYERS","Pemain);
-define("ONLINE","Onlineن");
-define("TUTORIAL","Panduan");
-define("PLAYER_STATISTICS","آمار بازیکنان");
-define("TOTAL_PLAYERS","مجموع ".PLAYERS."");
-define("ACTIVE_PLAYERS","Pemain Aktif");
-define("ONLINE_PLAYERS","".PLAYERS." آنلاین");
-define("MP_STRATEGY_GAME","".SERVER_NAME." - بازی اینترنتی - رومی ها، گول ها و توتن ها");
-define("WHAT_IS","".SERVER_NAME." is one of the most popular browser games in the world. As a player in ".SERVER_NAME.", you will build your own empire, recruit a mighty army, and fight with your allies for game world hegemony.");
-define("REGISTER_FOR_FREE","رایگان عضو شوید");
-define("LATEST_GAME_WORLD","آخرین جهان های بازی");
-define("LATEST_GAME_WORLD2","در آخرین<br/>جهان بازی<br/>عضو شوید<br/>و تلاش کنید<br/>برای اول شدن.");
-define("PLAY_NOW","بازی کردن ".SERVER_NAME."");
-define("LEARN_MORE","اطلاعات بیشتر <br/>درباره ".SERVER_NAME."!");
-define("COMUNITY","اجتماع");
-define("NEWS","Beritaر");
-define("SCREENSHOTS","تصاویر");
-define("LOGIN_TO","ورود به ". SERVER_NAME);
-define("REGIN_TO","عضویت در ". SERVER_NAME);
-define("P_ONLINE","بازیکنان آنلاین: ");
-define("P_TOTAL","مجموع بازیکنان: ");
-define("CHOOSE","لطفا یک سرور انتخاب کن");
-define("STARTED"," این سرور ". round((time()-COMMENCE)/86400) ." روز قبل شروع شده است");
+/ / DORF1
+define ("LUMBER", " timber " ) ;
+define ("CLAY", " brick " ) ;
+define ("IRON", " iron " ) ;
+define ("CROP", " wheat " ) ;
+define ("LEVEL", " level " ) ;
+define ("CROP_COM", CROP. " Consumer " ) ;
+define ("PER_HR", " h " ) ;
+define ("PROD_HEADER", " Products " ) ;
+define ("MULTI_V_HEADER", " village " ) ;
+define ("ANNOUNCEMENT", " Announcements " ) ;
+define ("GO2MY_VILLAGE", " Return to Village " ) ;
+define ("VILLAGE_CENTER", " village center " ) ;
+define ("FINISH_GOLD", " Do you want to work in the village , with 2 Gold Finish ? " ) ;
+define ("WAITING_LOOP", "( round building ) " ) ;
+define ("HRS", "( h ) " ) ;
+define ("DONE_AT", " Check " ) ;
+define ("CANCEL", " Cancel" ) ;
+define ("LOYALTY", " loyalty " ) ;
+define ("SEVER_TIME", " server " ) ;
+define ("SIDEINFO_CHANGEVIL_BTN", " Save" ) ;
+define ("SIDEINFO_CHANGEVIL_LABEL", " the new name of the village : " ) ;
+define ("SIDEINFO_CHANGEVIL_TITLE", " rename the village" ) ;
+define ("SIDEINFO_CHANGE_TITLE", " to change the village's name , double-click ( double -click ) it." ) ;
+define ("SIDEINFO_ADVENTURES", " adventure " ) ;
+define ("SIDEINFO_AUCTIONS", " Auctions " ) ;
+define ("SIDEINFO_PROFILE", " profile " ) ;
+define ("SIDEINFO_ALLIANCE", " unity " ) ;
+define ("SIDEINFO_ALLY_FORUM", " Unity Forum " ) ;
 
 
-//ATTACKS ETC.
-define("TROOP_MOVEMENTS","حرکت لشکریان:");
-define("ARRIVING_REINF_TROOPS","رسیدن نیروی کمکی");
-define("ARRIVING_REINF_TROOPS_SHORT","نیروی کمکی");
-define("OWN_ATTACKING_TROOPS","حملات از دهکده");
-define("ARRIVING_ATTACKING_TROOPS","حرکت نیروهای دشمن");
-define("ATTACK","حمله");
-define("OWN_REINFORCING_TROOPS","نیروی کمکی در دهکده");
-define("TROOPS_DORF","لشکریان:");
+/ / ================================================ ====== / /
+/ / ================ UNITS ================ / /
+/ / ================================================ ====== / /
+
+/ / HERO
+define ("U0", " Hero" ) ;
+
+/ / ROMAN UNITS
+define ("U1", " Legionnaire " ) ;
+define ("U2", " protection " ) ;
+define ("U3", " Swordsman " ) ;
+define ("U4", " informer " ) ;
+define ("U5", " knight" ) ;
+define ("U6", " Knights of Caesar " ) ;
+define ("U7", " ram " ) ;
+define ("U8", " Catapult Catapult " ) ;
+define ("U9", " Senator " ) ;
+define ("U10", " immigrant " ) ;
+
+/ / TEUTON UNITS
+define ("U11", " Grzdar " ) ;
+define ("U12", " spear " ) ;
+define ("U13", " Axeman " ) ;
+define ("U14", " spyware" ) ;
+define ("U15", " Delaware " ) ;
+define ("U16", " Teutonic Knights " ) ;
+define ("U17", " ram " ) ;
+define ("U18", " catapult " ) ;
+define ("U19", " head " ) ;
+define ("U20", " immigrant " ) ;
+
+/ / GAUL UNITS
+define ("U21", " Phalanx " ) ;
+define ("U22", " Swordsman " ) ;
+define ("U23", " trace" ) ;
+define ("U24", " thunder" ) ;
+define ("U25", " a priest Cavalry " ) ;
+define ("U26", " Knight deceive " ) ;
+define ("U27", " ram " ) ;
+define ("U28", " catapult " ) ;
+define ("U29", " chief " ) ;
+define ("U30", " immigrant " ) ;
+
+/ / HOKAGE UNITS
+define ("U31", "Hashirama Senju");
+define ("U32", "Tobirama Senju");
+define ("U33", "Hiruzen Sarutobi");
+define ("U34", "Minato Namikaze");
+define ("U35", "Tsunade");
+define ("U36", "Danzō Shimura");
+define ("U37", "Kizashi Haruno");
+define ("U38", "Kakashi Hatake");
+define ("U39", "Naruto Uzumaki");
+define ("U40", "Jiraiya");
+
+/ / AKATSUKI UNITS
+define ("U41", "Pain");
+define ("U42", "Deidara");
+define ("U43", "Konan");
+define ("U44", "Itachi Uchiha");
+define ("U45", "Zetsu");
+define ("U46", "Orochimaru");
+define ("U47", "Kisame Hoshigaki");
+define ("U48", "Kakuzu");
+define ("U49", "Sasori");
+define ("U50", "Uchiha Madara");
+
+/ / INDEX.php
+define ("LOGIN", "Masuk");
+define ("PLAYERS", "Pemain);
+define ("ONLINE", "Online n " ) ;
+define ("TUTORIAL", "Panduan");
+define ("PLAYER_STATISTICS", " Player Stats ");
+define ("TOTAL_PLAYERS", " Total ". PLAYERS. "");
+define ("ACTIVE_PLAYERS", "Pemain Aktif");
+define ("ONLINE_PLAYERS", "". PLAYERS. " online" ) ;
+define ("MP_STRATEGY_GAME", "". SERVER_NAME. "- Browser Game - Romans, Gauls and Teutons " ) ;
+define ("WHAT_IS", "". SERVER_NAME. "is one of the most popular browser games in the world. As a player in". SERVER_NAME. ", you will build your own empire, recruit a mighty army, and fight with your allies for game world hegemony. ");
+define ("REGISTER_FOR_FREE", " free sign up " ) ;
+define ("LATEST_GAME_WORLD", " latest gaming world " ) ;
+define ("LATEST_GAME_WORLD2", " The Last <br/> world <br/> subscribe <br/> <br/> and try for the first time. " ) ;
+define ("PLAY_NOW", " play ". SERVER_NAME. "");
+define ("LEARN_MORE", " <br/> more information about ". SERVER_NAME. "!");
+define ("COMUNITY", " community " ) ;
+define ("NEWS", "Berita r" ) ;
+define ("SCREENSHOTS", " images " ) ;
+define ("LOGIN_TO", " Login ". SERVER_NAME);
+define ("REGIN_TO", " Subscribe ". SERVER_NAME);
+define ("P_ONLINE", " playing " ) ;
+define ("P_TOTAL", " all players " ) ;
+define ("CHOOSE", " Please select a server " ) ;
+define ("STARTED", " server ". round ((time ()-COMMENCE) / 86400). " days before it " ) ;
 
 
-//404.php
-define("NOTHING_HERE","اینجا چیزی موجود نیست!");
-define("WE_LOOKED","ما 404 بار نگاه کردیم اما هیچی پیدا نکردیم!");
-
-//HEADER.TPL
-define("SERVER_TIME","زمان سرور:");
-define("HEADER_DAY","روز");
-define("HEADER_NIGHT","شب");
-define("HEADER_GOLD","سکۀ طلای تراوین");
-define("HEADER_SILVER","سکۀ نقرۀ تراوین");
-define("HEADER_PLUS","پلاس");
-define("HEADER_PLUSMENU","منوی پلاس");
-define("HEADER_ADMIN","مدیریت");
-
-//NOTICES
-define("REPORT_SUBJECT","موضوع:");
-define("REPORT_ATTACKER","مهاجم");
-define("REPORT_DEFENDER","مدافع");
-define("REPORT_RESOURCES","منابع");
-define("REPORT_FROM_VIL","از دهکده‌ی");
-define("REPORT_FROM_ALLY","از اتحاد");
-define("REPORT_SENT","فرستاده شده");
-define("REPORT_SENDER","فرستنده");
-define("REPORT_RECEIVER","گیرنده");
-define("REPORT_AT","در");
-define("REPORT_TO","به");
-define("REPORT_SEND_RES","منابع می‌فرستد");
-define("REPORT_DEL_BTN","حذف گزارش");
-define("REPORT_DEL_QST","واقعاً گزارش حذف شود؟");
-define("REPORT_WARSIM","شبیه ساز جنگی");
-define("REPORT_ATK_AGAIN","تکرار حمله");
-define("REPORT_TROOPS","لشکریان");
-define("REPORT_REINF","نیروی کمکی");
-define("REPORT_CASUALTIES","تلفات");
-define("REPORT_INFORMATION","اطلاعات");
-define("REPORT_BOUNTY","غنائم");
-define("REPORT_CLOCK","مدت زمان");
-define("REPORT_UPKEEP","غذای مصرفی");
-define("REPORT_PER_HOURS","در ساعت");
-define("REPORT_SEND_REINF_TO","نیروی کمکی ارسال کرد به");
-
-//MASSMESSAGE.php
-define("MASS","متن پیغام");
-define("MASS_SUBJECT","موضوع:");
-define("MASS_COLOR","رنگ:");
-define("MASS_REQUIRED","همه قسمت ها الزامی است");
-define("MASS_UNITS","Images (units):");
-define("MASS_SHOWHIDE","Show/Hide");
-define("MASS_READ","Read this: after adding smilie, you have to add left or right after number otherwise image will won't work");
-define("MASS_CONFIRM","تایید");
-define("MASS_REALLY","آیا میخواهید ارسال کنید");
-define("MASS_ABORT","ارسال نشد");
-define("MASS_SENT","ارسال شد");
+/ / ATTACKS ETC.
+define ("TROOP_MOVEMENTS", " the troops " ) ;
+define ("ARRIVING_REINF_TROOPS", " getting help, " ) ;
+define ("ARRIVING_REINF_TROOPS_SHORT", " auxiliary force " ) ;
+define ("OWN_ATTACKING_TROOPS", " attacking the village " ) ;
+define ("ARRIVING_ATTACKING_TROOPS", " the enemy " ) ;
+define ("ATTACK", " attack" ) ;
+define ("OWN_REINFORCING_TROOPS", " auxiliary force in the village" ) ;
+define ("TROOPS_DORF", " army " ) ;
 
 
-?>
+/ / 404.php
+define ("NOTHING_HERE", " There is nothing here ! " ) ;
+define ("WE_LOOKED", " We looked 404 times but did not find anything !" ) ;
+
+/ / HEADER.TPL
+define ("SERVER_TIME", " server " ) ;
+define ("HEADER_DAY", " day " ) ;
+define ("HEADER_NIGHT", " night" ) ;
+define ("HEADER_GOLD", " gold coin online " ) ;
+define ("HEADER_SILVER", " coin silver tiles " ) ;
+define ("HEADER_PLUS", " Plus" ) ;
+define ("HEADER_PLUSMENU", " Menu Plus" ) ;
+define ("HEADER_ADMIN", " management" ) ;
+
+/ / NOTICES
+define ("REPORT_SUBJECT", " Subject : " ) ;
+define ("REPORT_ATTACKER", " attacker " ) ;
+define ("REPORT_DEFENDER", " defense " ) ;
+define ("REPORT_RESOURCES", " resources " ) ;
+define ("REPORT_FROM_VIL", " The Village" ) ;
+define ("REPORT_FROM_ALLY", " unity " ) ;
+define ("REPORT_SENT", " Sent " ) ;
+define ("REPORT_SENDER", " sender" ) ;
+define ("REPORT_RECEIVER", " receiver " ) ;
+define ("REPORT_AT", " on " ) ;
+define ("REPORT_TO", " to " ) ;
+define ("REPORT_SEND_RES", " send resources " ) ;
+define ("REPORT_DEL_BTN", " Delete Report" ) ;
+define ("REPORT_DEL_QST", " really report to be removed ? " ) ;
+define ("REPORT_WARSIM", " war simulator " ) ;
+define ("REPORT_ATK_AGAIN", " repeated attacks " ) ;
+define ("REPORT_TROOPS", " army " ) ;
+define ("REPORT_REINF", " auxiliary force " ) ;
+define ("REPORT_CASUALTIES", " losses " ) ;
+define ("REPORT_INFORMATION", " data" ) ;
+define ("REPORT_BOUNTY", " Bounty " ) ;
+define ("REPORT_CLOCK", " time " ) ;
+define ("REPORT_UPKEEP", " food " ) ;
+define ("REPORT_PER_HOURS", " h " ) ;
+define ("REPORT_SEND_REINF_TO", " auxiliary force sent to " ) ;
+
+/ / MASSMESSAGE.php
+define ("MASS", " text message" ) ;
+define ("MASS_SUBJECT", " Subject : " ) ;
+define ("MASS_COLOR", " color " ) ;
+define ("MASS_REQUIRED", " All fields are required " ) ;
+define ("MASS_UNITS", "Images (units):");
+define ("MASS_SHOWHIDE", "Show / Hide");
+define ("MASS_READ", "Read this: after adding smilie, you have to add left or right after number otherwise image will won't work");
+define ("MASS_CONFIRM", " OK" ) ;
+define ("MASS_REALLY", " Do you want to send " ) ;
+define ("MASS_ABORT", " Unable to send " ) ;
+define ("MASS_SENT", " Sent " ) ;
